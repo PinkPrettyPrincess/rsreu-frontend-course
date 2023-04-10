@@ -1,5 +1,20 @@
-.container{
-    width: 50px;
-    height: 100px;
-    border: 1px solid hsl(0, 0%, 93%);
+.container {
+    border: 1px solid hsl(0, 0%, 100%);
+    padding: 5px;
+}
+
+.container2 {
+    border: 1px solid hsl(0, 0%, 100%);
+    padding: 5px;
+    background: #019901;
+}
+
+.container21 {
+    border: 1px solid hsl(0, 0%, 100%);
+    padding: 5px;
+    width: 50%;
+}
+
+.container-second {
+    width: 40%;
 }
