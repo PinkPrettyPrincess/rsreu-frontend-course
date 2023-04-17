@@ -1,3 +1,12 @@
+@font-face {
+    font-family: Daedra;
+    src: url(fonts/Daedra.ttf);
+    font-family: Balgruf;
+    src: url(fonts/Balgruf.ttf);
+    font-family: Dovahkiin;
+    src: url(fonts/Dovahkiin.ttf);
+}
+
 .container {
     border: 1px solid hsl(0, 0%, 100%);
     padding: 5px;
@@ -17,4 +26,79 @@
 
 .container-second {
     width: 40%;
+}
+
+/*Задание 3*/
+.uno {
+    border: 3px solid #019901;
+}
+
+.dos {
+    box-shadow: 0 0 0 3px #019901;
+}
+
+.tres {
+    outline: 2px solid #019901;
+}
+
+/*задание 4*/
+.eins {
+    padding: 5px;
+    background-image: url('2.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.zwei {
+    border: 1px solid hsl(0, 0%, 100%);
+    padding: 5px;
+    background: #00ffff7e;
+    width: 250px;
+}
+
+.drei {
+    padding: 5px;
+    background-image: url('3.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.vier {
+    padding: 5px;
+    background: #6c91917e;
+    font-family: Arial;
+}
+
+.fünf {
+    padding: 5px;
+    width: 50%;
+    background-image: url('4.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+}
+
+.sechs {
+    padding: 5px;
+    width: 10%;
+    font-family: Dovahkiin;
+}
+
+.sieben {
+    padding: 5px;
+    width: 120%;
+}
+
+.acht {
+    padding: 5px;
+    width: 200px;
+}
+
+.neun {
+    padding: 5px;
+    width: 50%;
+}
+
+.zehn {
+    padding: 5px;
+    width: 50%;
 }
